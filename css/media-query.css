@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
-    section {
+    /* section {
         width: 100%;
-    }
+    } */
 
     /* THE FOLLOWING SOLUTIONS SEEM TO WORK AS WELL
     main {
@@ -37,5 +37,11 @@
         margin-bottom: 0rem;
         padding: 3rem 0;
         background-color: #222222;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 100%;
     }
 }
